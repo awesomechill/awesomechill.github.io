@@ -454,6 +454,12 @@ main {
   }
 }
 
+@media (max-width: 600px) {
+  .header__nav {
+    top: 58px;
+  }
+}
+
 @media (max-width: 920px) {
   .header__nav--open {
     display: block;
@@ -1343,7 +1349,7 @@ main {
   z-index: 10;
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: 47%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   width: 90%;
@@ -1358,6 +1364,12 @@ main {
   padding: 40px 30px;
   background-color: #fff;
   bottom: 70px;
+}
+
+@media (max-width: 450px) {
+  .pop__form {
+    width: 88%;
+  }
 }
 
 .pop__overlay {
